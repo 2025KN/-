@@ -16,7 +16,7 @@
  
  >## WEEK02
   >* 팅커캐드   
-  >* LED, 초음파센
+  >* LED, 초음파센서
 
  >## WEEK03
   >* influxdb   
