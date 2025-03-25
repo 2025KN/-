@@ -1,0 +1,25 @@
+SDA - 시리얼 데이터
+SCL - 시리얼 클록
+
+ACK H - SDA L = ACK
+ACK H - SDA H - NACK
+
+ADDR	//Slave 주소
+ 127 - 15
+ 112(슬레이브 112개까지)
+
+R/W 	//Read, Write
+
+R/W - ACK
+
+DATA - ACK
+
+ACK/NACK
+
+UNO A4 = SDA
+UNO A5 = SCL
+
+I2C 통신 주소 찾기
+
+lcd.print();	//lcd화면에 출력
+lcd.clear();	//lcd화면 지우기
