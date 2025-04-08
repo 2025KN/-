@@ -1,13 +1,13 @@
 <tos_image>
   <ident>
-    <hostname>4-405-21</hostname>
-    <platform>telosb</platform>
-    <username>PC</username>
     <deluge_support>no</deluge_support>
     <userhash>C4A54A61L</userhash>
-    <uidhash>4378D05CL</uidhash>
-    <timestamp>67F4EB02L</timestamp>
+    <username>PC</username>
+    <timestamp>67F4EDDFL</timestamp>
+    <hostname>4-405-21</hostname>
+    <uidhash>C9683480L</uidhash>
     <appname>BlinkAppC</appname>
+    <platform>telosb</platform>
   </ident>
   <image format="ihex">
 :104000005542200135D0085A8245241131400039EB
