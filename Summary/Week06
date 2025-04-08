@@ -31,11 +31,13 @@ vim
 gcc -o 실행파일이름(정해주기) 소스파일
 ./실행파일
 
-임베디드 전용 c nc 
+임베디드 전용 c nc 네스 C??
+
 
 컴파일하고 에러 체크 (문법 체크)
 make telosb 
 
+업로드??
 make telosb install.(노드아이디)
 
 make telosb install.100
