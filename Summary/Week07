@@ -11,6 +11,14 @@ simpleTimer -> 함수의 원형은 헤더에, 소스는 cpp에 만들어놓았�
 ex) void sum(int a, int b, int& c) { ......
 &는 주소값을 말함. 따라서 매개변수c와 매개변수의 주소로 전달된 변수는 같은 공간을 공유.
 
+함수 오버로딩 -> 함수 이름은 같지만 매개변수형이나 개수를 다르게 가짐
 
 
+클래스 만들기
+LedToggle
+
+#ifndef는 #if not defined를 줄인 말이다. 처음 #include한 후부터는
+#ifndef가 거짓이 되므로 #include는 동작하지 않는다.
+
+생성자 앞에는 반환자료형 명시하지 않음
 
