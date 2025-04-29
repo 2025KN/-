@@ -1,1 +1,20 @@
-무선 네트워크
+라즈베리파이.
+Pi Imager사용한 라즈베리파이 Os 설치.
+USB문제 발생 시, 장치 관리자에서 드라이버 업데이트.
+
+유선인터넷 사용 시, IPV4 세팅.
+
+터미널에서 sudo apt update
+인터넷 되는지 확인함.
+
+키보드 레이아웃 변경.
+102키 키보드에 us 레이아웃
+
+한글로 설정 바꾸기.
+sudo apt-get install fonts-unfonts-core -y
+sudo apt-get install ibus ibus-hangul -y
+sudo reboot
+
+
+
+
