@@ -13,7 +13,9 @@ USB문제 발생 시, 장치 관리자에서 드라이버 업데이트.
 한글로 설정 바꾸기.
 sudo apt-get install fonts-unfonts-core -y
 sudo apt-get install ibus ibus-hangul -y
+이후 로케일 한글로 바꾸고, 시간대 바꾸기
 sudo reboot
+
 
 
 
