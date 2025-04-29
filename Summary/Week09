@@ -17,6 +17,7 @@ sudo apt-get install ibus ibus-hangul -y
 sudo reboot
 
 
-
+vim설치
+sudo apt install vim -y
 
 
