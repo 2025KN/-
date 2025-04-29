@@ -21,3 +21,8 @@ vim설치
 sudo apt install vim -y
 
 
+mkdir  cd 등 리눅스 명령어 사용가능.
+
+vim사용하여 파이썬 파일 생성 가능.
+
+텔레그램 설치하고, 봇 만들어오기
