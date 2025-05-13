@@ -45,4 +45,7 @@
  >## WEEK09
   >* 라즈베리파이
   >* Pi imager
-  >* sudo apt
+
+>## WEEK10
+  >* OpenCV
+  >* python telegram bot
