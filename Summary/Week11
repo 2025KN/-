@@ -27,4 +27,11 @@ localhost:3000
 influxdb나 grafana localhost 가능한 이유는,
 라즈베리파이에 설치되어 구동중이기 때문.
 
+GrafanaGUI를 이용해.
+visualization 하기.
+대쉬보드에서 새로운 비주얼 추가하고,
+조건 맞춰주기(SQL과 비슷?
 
+FROM에서 measurement
+Where에서 tag
+select에서 fields
