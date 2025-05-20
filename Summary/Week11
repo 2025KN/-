@@ -17,6 +17,14 @@ decode쓰는건 바이트값을 받아오는 것이라 해석?하는것?
 
 
 
+라즈베리파이에 저장된 influxdb 데이터를 가져오는
+Grafana
 
+Grafana
+localhost:3000
+기본포트 3000  사용.
+
+influxdb나 grafana localhost 가능한 이유는,
+라즈베리파이에 설치되어 구동중이기 때문.
 
 
