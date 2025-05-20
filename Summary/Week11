@@ -1,1 +1,12 @@
+라즈베리파이에서 influxDB 데이터베이스 생성
 
+미들웨어
+
+미세먼지센서값을 라즈베리에 저장하기위한 influxdb
+
+measurement는 테이블임
+fields는 어트리뷰트?
+
+seri.readline은 한 행씩.
+만약 파싱 필요하면
+decode 대신 split구문 필요.
