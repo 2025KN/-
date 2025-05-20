@@ -57,4 +57,5 @@
 
 >## WEEK11
   >* Grafana
-  >* Arduino to Python Serial Middleware
+  >* Middleware
+  >* Visualization
