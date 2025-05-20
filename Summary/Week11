@@ -7,6 +7,10 @@
 measurement는 테이블임
 fields는 어트리뷰트?
 
+(교안코드참조.
 seri.readline은 한 행씩.
 만약 파싱 필요하면
 decode 대신 split구문 필요.
+
+
+
