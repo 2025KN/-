@@ -54,3 +54,7 @@
   >* OpenCV
   >* python telegram bot
   >* CommandHandler
+
+>## WEEK11
+  >* Grafana
+  >* Arduino to Python Serial Middleware
