@@ -1,3 +1,6 @@
+라즈베리파이에서 InfluxDB와 Grafana를 이용하여 아두이노의 데이터 불러오기.
+
+
 # InfluxDB 설치
 
 ## InfluxDB download key using wget
