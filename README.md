@@ -59,3 +59,7 @@
   >* Grafana
   >* Middleware
   >* Visualization
+
+>## WEEK12
+  >* 무선 송신
+  >* 비동기식 함수
