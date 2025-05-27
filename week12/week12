@@ -9,7 +9,9 @@ TinyOS 이용한 온습도 센서 무선 송신
 
 leds timermillic  시험..
 
-비동기식 함수는 event키워드 사용?
+비동기식 함수는 event키워드 사용
+
+
 
 
 
