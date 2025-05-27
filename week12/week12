@@ -9,6 +9,10 @@ TinyOS 이용한 온습도 센서 무선 송신
 
 leds timermillic  시험..
 
+
+uint32 = 4byte
+uint 16 = 2
+
 비동기식 함수는 event키워드 사용
 
 
