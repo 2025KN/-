@@ -67,6 +67,6 @@
     pip install influxdb
 
 ### hint: See PEP 668 for the detailed specification.
-  
-  sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
+
+    sudo rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 
