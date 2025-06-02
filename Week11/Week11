@@ -1,39 +1,16 @@
-미세먼지센서값을 라즈베리에 저장하기위한 influxdb
-라즈베리파이에서 influxDB 데이터베이스 생성
+OpenCV
+-안면인식 등 이미지 처리를 위한 라이브러리
 
-미들웨어
+python telegram bot
+-파이썬에서 텔레그램 봇과 연동하여 기능을 만들게 해줌
 
-measurement는 테이블임
-fields는 어트리뷰트?
+pip install python-telegram-bot --upgrade
 
-(교안코드참조.
-seri.readline은 한 행씩 가져온다.
+git clone https://python-telegram-bot/python-telegram-bot
 
-만약 파싱 필요하면
-(값만 넘기는게 아니라, 구별문구 같이보낼때..
-decode 대신 split구문 필요.
+./python telegram bot/example/timer.py
+ 
+텔레그램 봇으로 명령을 내려서 USB웹캠을 사용하여 사진을 찍고, 그 내용을 다시 텔레그램 봇으로 전달
 
-decode쓰는건 바이트값을 받아오는 것이라 해석?하는것?
-
-
-
-라즈베리파이에 저장된 influxdb 데이터를 가져오는
-Grafana
-
-Grafana
-localhost:3000
-기본포트 3000  사용.
-
-influxdb나 grafana localhost 가능한 이유는,
-라즈베리파이에 설치되어 구동중이기 때문.
-
-GrafanaGUI를 이용해.
-visualization 하기.
-대쉬보드에서 새로운 비주얼 추가하고,
-조건 맞춰주기(SQL과 비슷?
-
-FROM에서 measurement
-Where에서 tag
-select에서 fields
-
+telegram bot에서 사용할 명령어를 추가하는 CommandHandler
 

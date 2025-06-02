@@ -51,15 +51,21 @@
   >* Pi imager
 
 >## WEEK10
+  >* 보강 (6월 10일 보강.)
+
+>## WEEK11
   >* OpenCV
   >* python telegram bot
   >* CommandHandler
 
->## WEEK11
+>## WEEK12
   >* Grafana
   >* Middleware
   >* Visualization
 
->## WEEK12
+>## WEEK13
   >* 무선 송신
   >* 비동기식 함수
+
+>## WEEK14 (온라인 이론정리)
+  >* 이론 정리
