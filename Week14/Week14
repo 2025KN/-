@@ -131,4 +131,5 @@ Data Frame
   SequenceNumber : 데이터가 손실이 났는지 확인을 도움
   Payload : 실제 Data가 실리는 곳
   AddressInfo: 목적지와 출발지 말고도 목적지와 출발지의 각각PAN ID도 가지고 있음(다른 네트워크와 통신하기 위해 필요)
+            PAN ID는 내부끼리 통신할 땐 사용하지 않을수도 있기 때문에 0바이트 또는 2바이트가 될 수 있음
             Parent에서 Child와 (내부통신, ZigBee끼리??) 일땐 2바이트(Short Address), MAC 주소 사용 시엔 8바이트
