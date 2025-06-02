@@ -79,5 +79,45 @@ Hidden Terminal Problem
 
 CSMA - CD (이더넷에서 사용, CSMA - CD 는 충돌을 감지할 수 있음.)
   -충돌감지 시 데이터 전송 중지
+-----
+-----
 
+ZigBee
 
+ZigBee 스택
+  -프로토콜 소프트웨어 관한 집합체
+  -지그비에서 정의한 프로토콜들의 구현
+
+IEEE 802.15.4
+물리계층
+  무선으로 직접 데이터   
+  3개의 밴드, 27개의 채널
+    868-870 0
+    902-928 1~10
+    2.4 - 2.4835 11 ~ 26
+
+DSSS  (슈도랜덤값을 통해서 스펙트럼이 더 커짐)
+  슈도 랜덤 활용
+  주파수를 암호화하여 사용하는 느낌
+  슈도 랜덤값을 다시 곱하여 복호화
+
+MAC 계층 특징
+-세 종류의 기기 정의
+  NC: Network Coordinator  네트워크 코디네이터 (제일 중요, 무조건 있어야 함??)
+  FFD: Full Function Decice 전기능기기    (프로토콜이 모두 구현되있는)
+  RFD: Reduced Function Device 축소기능기기  (FFD에서 최소한의 기능만 가진 RFD)
+-MAC의 선택 사양
+  비콘 없는 통신 (Non-Beacon)
+    -Non-slotted
+  비콘 사용 통신
+    -Slotted  (슬롯은 시간이라고 생각하면 편함)
+-----
+지그비의 CSMA-CA (RTS, CTS 사용하지 않음)
+  비콘없는 통신
+  비콘 사용 통신
+
+Super Frame 구조 (Super Frame을 사용한다면 비콘을 사용한다는 것.)
+  비콘, CAP, CFP 로 구성
+  CAP  경쟁구간?
+  CFP는 경쟁이 없는 구간
+  Inactive는 슬립모드라 생각할 수 있음. -> 배터리는 ZigBee에서 매우 중요하기 때문에 Inactive 필요
