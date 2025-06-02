@@ -120,5 +120,15 @@ MAC 계층 특징
 Super Frame 구조 (Super Frame을 사용한다면 비콘을 사용한다는 것.)
   비콘, CAP, CFP 로 구성
   CAP  경쟁구간?
-  CFP는 경쟁이 없는 구간
+  CFP는 경쟁이 없는 구간, GTS 있을수도 없을수도.
   Inactive는 슬립모드라 생각할 수 있음. -> 배터리는 ZigBee에서 매우 중요하기 때문에 Inactive 필요
+  Beacon
+    비콘이 시간 동기화도 가능하다.
+    GTS가 어느 기기에 할당되었는지도 알려줌
+
+Data Frame
+  FrameControl(FC)
+  SequenceNumber : 데이터가 손실이 났는지 확인을 도움
+  Payload : 실제 Data가 실리는 곳
+  AddressInfo: 목적지와 출발지 말고도 목적지와 출발지의 각각PAN ID도 가지고 있음(다른 네트워크와 통신하기 위해 필요)
+            Parent에서 Child와 (내부통신, ZigBee끼리??) 일땐 2바이트(Short Address), MAC 주소 사용 시엔 8바이트
