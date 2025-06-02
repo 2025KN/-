@@ -1,0 +1,37 @@
+---------------------------------------------
+Wifi
+-MAC service set, MAC data frame
+-CSMA/CA
+-MAC 관련 동작
+
+ZigBee
+-주소를 할당받는 기법
+-지그비 라우팅 기법
+---------------------------------------------
+Wi-Fi
+  IEEE 802.11
+  2.4GHZ ~ 5GHZ
+  MAC = CSMA/CA
+
+  AP와 STA로 구성
+  -AP: 유무선 공유기
+  -STA: 노트북, 스마트폰 등 AP에 연결되는 기기
+-----
+Wi-Fi Service Set
+  -BSS (Basic Service Set)
+    AP가 없으면 ad hoc 모드  (Pear to Pear의 1대1 방식??)
+    AP가 있으면 infrastructure 모드  (기본적으로 사용하는 방식)
+    
+  ((ad hoc(애드혹 모드)
+      --맨 처음 클라이언트가 SSID나 PW같은 기본적인 설정을 위해 사용되기도 함.
+
+  -ESS
+    두개 이상의 BSS들이 모여서 구성
+-----
+MAC 방식    (특정 디바이스를 확인하기 위해서 MAC 주소를 사용?)
+  -PCF
+
+  -DCF
+
+
+
