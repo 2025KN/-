@@ -41,8 +41,8 @@ MAC Data Frame  (Wi-Fi 에선 Address가 4개 사용됨.)
 FC | D | Address 1 | Address 2 | Address 3 | SC | Address 4 | Frame body | FCS
 
   FC (내가 보내는 패킷에 대한 설정정보) 
-    ToDS 1bit
-    FromDS  1bit 
+    -ToDS 1bit
+    -FromDS  1bit 
 
   내가 보낼 내용은 Frame body 에 들어가게 됨.
 
