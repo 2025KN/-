@@ -62,7 +62,7 @@ $ sudo make install
 ```
 $ motelist
 ```
-<img src="/1.PNG">
+<img src="1.PNG">
 
 ### 기본 미들웨어 소스코드 다운
 ```
