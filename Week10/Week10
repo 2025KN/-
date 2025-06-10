@@ -21,4 +21,5 @@ JNI설정에서 단계에서
 
 
 motelist 명령어 실행 시,
-usb꽂혀있지 않으면 no device
+usb꽂혀있지 않으면 no device (ZigBee 모듈?)
+
