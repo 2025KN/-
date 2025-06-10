@@ -78,16 +78,3 @@ python oscilloscope.py serial@/dev/ttyUSB0:115200
 $ mv ./tos.py /opt/tinyos-2.x/support/sdk/python/tos.py
 ```
 
-## Error 
-```
-attributeerror 'Serial' object has no attribute 'setbaudrate'
--> sudo vim /usr/local/bin/tos-bsl
--> :1345 줄로 이동
--> self.serialport.setBaudrate(baudrate) -> self.serialport.setBaudrate = baudrate (수정)
-```
-```
-attributeerror 'serial' object has no attribute 'Serial'
--> pip uninstall serial
--> pip install pyserial
-```
-
